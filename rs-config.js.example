@@ -1,0 +1,9 @@
+var redshiftConfig = {
+  user: '',
+  database: '',
+  password: '',
+  port: ,
+  host: '',
+};
+
+module.exports = redshiftConfig;

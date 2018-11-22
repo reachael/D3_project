@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <head>
+            <link rel="stylesheet" href="/stylesheets/index.css">
+        </head>
+        <label>Data Type</label>
+        <select id="typeSelect">
+            <option data-value-type="retention_rate" value="/rs/d1_retention_rate">D1 Retention Rate</option>
+            <option data-value-type="retention_rate" value="/rs/d7_retention_rate">D7 Retention Rate</option>
+            <option data-value-type="retention_rate" value="/rs/w1_retention_rate">W1 Retention Rate</option>
+            <option data-value-type="default" value="/rs/new_users">New users</option>
+            <option data-value-type="default" value="/rs/chat_dau">Chat DAU Ratio</option>
+            <option data-value-type="default" value="/rs/studio_dau">Studio DAU Ratio</option>
+            <option data-value-type="default" value="/rs/ae_dau">Avatar Edit DAU Ratio</option>
+            <option data-value-type="default" value="/rs/gameplays">Number of Gameplays</option>
+            <option data-value-type="default" value="/rs/ingamehours">In-Game Hours</option>
+            <option data-value-type="default" value="/rs/avg_ingameminutes">Average In-Game Minutes per Player</option>
+            <option data-value-type="default" value="/rs/income">Gross Robux Income from Backlog</option>
+            <option data-value-type="default" value="/rs/cashout">Total Robux Developers Cash Out</option>
+        </select>
+        <label>Date</label>
+        <select id="dateSelect">
+        </select>
+        <script src="/javascripts/vendor/jquery-3.3.1.min.js"></script>
+        <script src="/javascripts/vendor/d3-geo.min.js"></script>
+        <script src="/javascripts/vendor/d3-geo-projection.min.js"></script>
+        <script src="/javascripts/vendor/d3.min.js"></script>
+        <script src="/javascripts/index.js"></script>
+    </body>
+</html>
